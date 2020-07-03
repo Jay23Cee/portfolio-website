@@ -1,0 +1,62 @@
+.welcome{
+    background-image: url(../img/triangle2.jpg);
+    background-size :cover;
+    background-position:center;
+    
+    height: 100vh;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position :relative;;
+
+    h1{
+        
+       font-size: 2.5rem;
+       font-weight: $fw-n;
+       color:$dark-blue;
+       line-height: 2;
+       text-align: center; 
+   
+
+      
+       
+      
+
+       span{
+        @include sans-serif($fs:3.5rem, $color: $t-color);
+        display:block;
+
+        @include mq($width: 768px){
+            font-size:5rem;
+        }
+        
+      
+        }
+
+        &::before,
+        &::after{
+            
+            content: '';
+            display:block;
+    
+            width:80%;
+            height: 1px;
+            background:$dark-blue;
+            
+    
+        }
+    
+        &::before{
+            margin: 0 auto 2em;
+        }
+    
+        &::after{
+            margin: 2em auto 0;
+        }
+
+    }
+
+
+ 
+}
