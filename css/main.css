@@ -477,7 +477,7 @@ nav a {
 }
 
 .welcome {
-  background-image: url(../img/triangle2.jpg);
+  background-image: url();
   background-size: cover;
   background-position: center;
   height: 100vh;
