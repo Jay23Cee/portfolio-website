@@ -316,7 +316,7 @@ template {
 }
 
 body {
-  color: #A7A7A7;
+  color: #E8E9EB;
   font-family: "Merriweather", sans-serif;
   line-height: 1.6;
   font-size: 0.875rem;
@@ -344,7 +344,7 @@ h1, h2, p {
 }
 
 h1 {
-  color: #03AFC2;
+  color: #0466C8;
   line-height: 1;
   font-size: 3.125rem;
 }
@@ -362,6 +362,7 @@ h2 {
   text-transform: uppercase;
   line-height: 1;
   font-weight: 400;
+  color: #0353A4;
 }
 @media (min-width: 50em) {
   h2 {
@@ -531,7 +532,7 @@ nav a {
   color: #FFFFFF;
 }
 .intro h2 {
-  color: #FFFFFF;
+  color: #0353A4;
 }
 .intro h2::after {
   content: "";
@@ -549,7 +550,8 @@ nav a {
 }
 
 .intro-middle {
-  background: #050a4b;
+  background: #0B132B;
+  background: linear-gradient(356deg, #002855 27%, #0b132b 100%);
   padding: 2.2em 2vw;
   text-align: center;
   display: flex;

@@ -1,5 +1,5 @@
 body{
-    color: $gray;
+    color: $light-gray;
     font-family: $ff-s;
     line-height: 1.6;
     
@@ -30,7 +30,7 @@ h1,h2,p{
 }
 
 h1{
-    color: $accent;
+    color: $true-blue;
     line-height: 1;
     font-size: 3.125rem;
 
@@ -42,7 +42,7 @@ h1{
 
 h2{
     @include sans-serif($fs:2rem);
-
+    color:$u-blue;
 
     @include mq{
         font-size:3rem;
