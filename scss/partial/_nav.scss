@@ -43,7 +43,7 @@ nav ul{
     height:90vh;
     justify-content:spacing-around;
     align-items:stretch;
-    background:$accent;
+    background:$o-blue2;
 
 }
 
@@ -65,7 +65,7 @@ nav li :hover{
 
 nav a {
     display: inline-block;
-    @include sans-serif($fs:3rem, $color: $dark-blue);
+    @include sans-serif($fs:3rem, $color: $true-blue);
    font-family: 'Six Caps';
     text-decoration:none;
     padding: calc(90vh/8 ) 0;
