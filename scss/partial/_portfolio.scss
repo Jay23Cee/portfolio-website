@@ -4,6 +4,8 @@
     
     background: $o-blue2;
 
+    
+
 
 
     //    h1{
@@ -34,7 +36,7 @@
     overflow: hidden;
     flex: 1 1 20rem;
     margin:  0em 0em;
-    border: solid 7px rgba(168, 172, 173, 0.712);
+    border: solid 4px $u-blue;
     
 
 
@@ -57,7 +59,7 @@
     &:focus {
         figcaption{
             top:0 !important;
-            background:rgba(105, 105, 105, 0.678);;
+            background:rgba(19, 28, 39, 0.774);;
         }
 
        

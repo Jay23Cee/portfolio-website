@@ -79,7 +79,8 @@ textarea{
     width:auto;
     margin-top: 1em;
     margin-left: auto;
-    background: $accent;
+    background: $true-blue;
+    
     border:none;
 
     @include sans-serif($fs:2rem, $color: $white);
