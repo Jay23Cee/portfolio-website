@@ -5,8 +5,10 @@
     background: $o-blue2;
 
     
-
-
+  
+    @include mq{
+        height:85vh;
+    }
 
     //    h1{
     //        font-size:3em;

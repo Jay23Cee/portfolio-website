@@ -683,6 +683,11 @@ nav a {
   padding: 1em 0;
   background: #002855;
 }
+@media (min-width: 50em) {
+  .portfolio {
+    height: 85vh;
+  }
+}
 
 .portfolio-items {
   display: flex;
@@ -971,6 +976,7 @@ nav a {
   margin: 0 auto;
   max-width: 50em;
   padding: 2.5em 0;
+  height: 70vh;
 }
 .contact h1 {
   text-align: center;
@@ -1006,7 +1012,7 @@ form {
       grid-area: message;
     }
     form .message textarea {
-      height: 5em;
+      height: 10em;
     }
     form .button {
       grid-area: button;
@@ -1055,7 +1061,7 @@ footer {
   text-align: center;
   background: linear-gradient(260deg, #002855 27%, #0b132b 100%);
   overflow: hidden;
-  max-height: 8em;
+  max-height: 5em;
 }
 
 .social-icon {
