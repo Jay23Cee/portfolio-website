@@ -1,7 +1,12 @@
 .contact{
     @include container;
     padding: 2.5em 0;
-    height: 70vh;
+    height: 80vh;
+
+    @include mq{
+        height:70vh;
+        margin-bottom: 2em;
+    }
  
     h1{
         text-align: center;
@@ -60,7 +65,7 @@ form{
 label{
     display:block;
     margin:1em;
-    color:$dark-gray;
+    color:$light-gray;
 }
 
 input,

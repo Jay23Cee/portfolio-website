@@ -976,7 +976,13 @@ nav a {
   margin: 0 auto;
   max-width: 50em;
   padding: 2.5em 0;
-  height: 70vh;
+  height: 80vh;
+}
+@media (min-width: 50em) {
+  .contact {
+    height: 70vh;
+    margin-bottom: 2em;
+  }
 }
 .contact h1 {
   text-align: center;
@@ -1023,7 +1029,7 @@ form {
 label {
   display: block;
   margin: 1em;
-  color: #606060;
+  color: #E8E9EB;
 }
 
 input,
@@ -1063,6 +1069,11 @@ footer {
   overflow: hidden;
   max-height: 5em;
 }
+@media (min-width: 50em) {
+  footer {
+    max-height: 1em;
+  }
+}
 
 .social-icon {
   width: 90%;
@@ -1088,8 +1099,13 @@ footer {
 }
 
 .copyright {
-  margin-right: 1em;
+  margin-right: 5em;
   font-size: 0.8rem;
+}
+@media (min-width: 50em) {
+  .copyright {
+    margin-right: 1em;
+  }
 }
 .copyright::before {
   content: "";
@@ -1097,14 +1113,15 @@ footer {
   height: 1px;
   align-items: center;
   background: white;
-  margin-bottom: 2em;
-  margin-left: 30%;
+  margin-bottom: 0.75em;
+  margin-left: 31vw;
   max-width: 32%;
 }
 @media (min-width: 768px) {
   .copyright::before {
     margin-left: 38%;
     max-width: 23%;
+    margin-bottom: -0.07em;
   }
 }
 
@@ -1117,7 +1134,9 @@ footer {
   }
   @media (min-width: 50em) {
     .social-icon {
-      margin-left: 50%;
+      margin-left: 48%;
+      margin-top: -0.9%;
+      grid-template-columns: repeat(3, 2.9em);
     }
   }
 
@@ -1128,6 +1147,8 @@ footer {
   @media (min-width: 50em) {
     #footer-follow {
       margin-right: 5%;
+      margin-top: -2.5em;
+      font-size: 0.75rem;
     }
   }
 }

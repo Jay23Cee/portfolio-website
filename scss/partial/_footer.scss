@@ -8,6 +8,11 @@ footer {
 
     overflow:hidden;
     max-height: 5em;
+
+    @include mq{
+        
+        max-height: 1em;
+    }
     
 }
 
@@ -44,9 +49,18 @@ footer {
 
 .copyright{
     
-    margin-right: 1em;
-    font-size: .8rem;
+    margin-right: 5em;
     
+    font-size: .8rem;
+
+    
+    
+
+    @include mq{
+         margin-right: 1em;
+    }
+
+
     &::before{
         content:'';
         display:block;
@@ -54,15 +68,16 @@ footer {
         align-items: center;
       
         background: rgba($white, $alpha: 1.5);
-        margin-bottom: 2em;
-        margin-left: 30%;
+        margin-bottom: .75em;
+        margin-left: 31vw;
         
         max-width:32%;
 
         @include mq($width:768px){
-
+         
             margin-left:38%;
             max-width:23%;
+            margin-bottom: -.07em;
 
         }
     }
@@ -81,7 +96,10 @@ footer {
        
         
         @include mq{
-            margin-left: 50%;
+            margin-left: 48%;
+            margin-top:-0.9%;
+            grid-template-columns: repeat(3, 2.9em);
+
         }
         
 
@@ -95,6 +113,8 @@ footer {
 
         @include mq{
             margin-right:5%;
+            margin-top:-2.5em;
+            font-size: .75rem;
         }
     }
 
